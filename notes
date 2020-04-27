@@ -1,0 +1,12 @@
+sudo docker ps 
+docker container (name) start/stop
+
+upload mediwiki config file
+sudo docker cp LocalSettings.php capes-mediawiki:/var/www/html
+
+
+sample config 
+docker run -d --network capes --restart unless-stopped --name capes-rocketchat --link capes-rocketchat-mongo -e "MONGO_URL=mongodb://capes-rocketchat-mongo:27017/rocketchat" -e MONGO_OPLOG_URL=mongodb://capes-rocketchat-mongo:27017/local?replSet=rs01 -e ROOT_URL=http://${IP}:4000 -p 4000:3000 rocketchat/rocket.chat:latest
+
+short one 
+docker run -d -p 6000:80 owncloud:8.1
