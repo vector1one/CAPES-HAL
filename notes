@@ -10,3 +10,6 @@ docker run -d --network capes --restart unless-stopped --name capes-rocketchat -
 
 short one 
 docker run -d -p 6000:80 owncloud:8.1
+
+console to container
+docker exec -it <container name> /bin/bash
