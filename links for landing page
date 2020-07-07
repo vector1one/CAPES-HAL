@@ -1,0 +1,28 @@
+testing this config...adding links to the server services to the HAL page
+
+
+	</head>
+	<body>
+
+		<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" class="" >
+			<div class="container">
+
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active">
+							</li>
+							<li>
+								 	<li><a href="http://10.3.10.100">Pfsense</a>
+									<li><a href="http://10.3.10.102:5601">Kibana</a></li>
+									<li><a href="https://10.3.10.105:8443">Carbon Black</a></li>
+									<li><a href="http://10.3.10.104:36706">Event-FWD</a></li>
+								</ul>
+							</li>
+					</nav>
+				<!-- </div> -->
+
+			</div>
+		</header>
