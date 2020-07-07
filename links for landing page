@@ -26,3 +26,32 @@ testing this config...adding links to the server services to the HAL page
 
 			</div>
 		</header>
+
+
+
+
+tried this one out...oipen new tab...going to change the page over to thsi 
+
+<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" class="" >
+			<div class="container">
+
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active">
+							</li>
+							<li>
+									<li><a href="http://10.3.10.100" target="_blank">Pfsense</a> 
+									<li><a href="https://10.3.10.102:5601" target="_blank">Elastic</a> 
+									<li><a href="https://10.3.10.103:8443" target="_blank">Carbon Black</a> 
+									<li><a href="https://10.3.10.104:33706" target="_blank">Event FWD</a> 
+								
+							</li>
+					</nav>
+				<!-- </div> -->
+				
+				
+				next step working on cenering the links or just havve them listed on the side 
+				
