@@ -99,6 +99,7 @@ docker run -d  --network capes --restart unless-stopped --name capes-landing-pag
 
 # Cyberchef Service
 docker run -d --network capes --restart unless-stopped --name capes-cyberchef remnux/cyberchef:latest
+docker run -d --network capes -p 8000:8000 --restart unless-stopped --name capes-cyberchef docker pull mpepping/cyberchef:latest
 
 # Gitea Service
 docker run -d --network capes --restart unless-stopped --name capes-gitea -v /var/lib/docker/volumes/gitea/_data:/data:z -e "VIRTUAL_PORT=3000" -e "VIRTUAL_HOST=capes-gitea" -p 2222:22 -p 3000:3000 gitea/gitea:latest
